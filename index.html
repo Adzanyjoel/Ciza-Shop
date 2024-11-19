@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <link rel="icon" href="img/logo.jpg" />
+
+    <title>Ciza Shop</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav aria-label="Breadcrumb" class="navbar">
+      <ol class="flex items-center gap-1 text-md text-gray-800">
+        <li>
+          <a href="#home" class="block transition hover:text-indigo-700">
+            <span class="sr-only"> Home </span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="size-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              />
+            </svg>
+          </a>
+        </li>
+
+        <li class="rtl:rotate-180">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="size-4"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </li>
+
+        <li>
+          <a href="#shirt" class="block transition hover:text-gray-700">
+            Shirts
+          </a>
+        </li>
+
+        <li class="rtl:rotate-180">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="size-4"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </li>
+
+        <li>
+          <a href="#peralatan" class="block transition hover:text-gray-700">
+            Peralatan Rumah Tangga
+          </a>
+        </li>
+      </ol>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Section Home Start -->
+    <section
+      id="home"
+      class="relative bg-[url('img/home.jpg')] bg-cover bg-center bg-no-repeat"
+    >
+      <div
+        class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+      ></div>
+
+      <div
+        class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+      ></div>
+    </section>
+    <!-- Section Home End -->
+
+    <!-- Product Start -->
+    <!-- Shirt Start -->
+    <section id="shirt" class="shirt">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <header>
+          <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">
+            Shirts Collection
+          </h2>
+
+          <p class="mt-4 max-w-md text-gray-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+            praesentium cumque iure dicta incidunt est ipsam, officia dolor
+            fugit natus?
+          </p>
+        </header>
+        <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <li>
+            <a
+              href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+              target="_blank"
+              class="group block overflow-hidden"
+            >
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+              target="_blank"
+              class="group block overflow-hidden"
+            >
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="group block overflow-hidden">
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="group block overflow-hidden">
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Shirt end -->
+    <!-- Peralatan start -->
+    <section id="peralatan" class="peralatan">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <header>
+          <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">
+            Peralatan Rumah Tangga
+          </h2>
+
+          <p class="mt-4 max-w-md text-gray-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+            praesentium cumque iure dicta incidunt est ipsam, officia dolor
+            fugit natus?
+          </p>
+        </header>
+        <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <li>
+            <a href="#" class="group block overflow-hidden">
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="group block overflow-hidden">
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="group block overflow-hidden">
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="group block overflow-hidden">
+              <img
+                src="img/logo.jpg"
+                alt=""
+                class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+              />
+
+              <div class="relative bg-white pt-3">
+                <h3
+                  class="flex items-center justify-center text-md text-gray-700 group-hover:underline group-hover:underline-offset-4"
+                >
+                  Basic Tee
+                </h3>
+
+                <p class="mt-2 flex items-center justify-center">
+                  <span class="sr-only"> Regular Price </span>
+
+                  <span class="tracking-wider text-gray-900">
+                    Rp 24.000 <span class="diskon">Rp 250.000</span>
+                  </span>
+                </p>
+                <a
+                  class="flex items-center justify-center rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  href="https://wa.me/6282256207235?text=Hallo, Saya Mau Beli Produk Ini"
+                  target="_blank"
+                >
+                  Beli Sekarang
+                </a>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Peralatan end -->
+    <!-- Product end -->
+  </body>
+</html>

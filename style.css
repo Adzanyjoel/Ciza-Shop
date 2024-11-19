@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  color: white;
+
+  justify-content: center;
+}
+
+.navbar {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.shirt .diskon,
+.peralatan .diskon {
+  color: grey;
+  text-decoration: line-through;
+}
