@@ -27,6 +27,7 @@ body {
 
 .shirt .diskon,
 .peralatan .diskon {
+  font-style: italic;
   color: grey;
   text-decoration: line-through;
 }
